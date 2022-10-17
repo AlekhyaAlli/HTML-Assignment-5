@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Accessing CSS Selector by class */
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+/* Accessing CSS Selector by class */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Accessing CSS Selector by Id */
+#ptext{
+text-align:center;
+}
+</style>
+</head>
+<body>
+<!-- Colour in RGB Format -->
+<h2 style="text-align:center;color:rgb(255, 0, 191)">Workshops</h2>
+<p id="ptext">The Workshops that You are looking are right here..</p>
+
+<div class="clearfix">
+  <div class="img-container">
+  <img src="images\Cybersecurity.jpg" alt="Cybersecurity" style="width:100%">
+  <p style="text-align:center">Cybersecurity Workshop</p>
+  <p style="text-align:center"><a href ="Schedule.html">Click here</a> for more details</p>
+  </div>
+  <div class="img-container">
+  <img src="images\blockchain.jpg" alt="blockchain" style="width:100%">
+   <p style="text-align:center">Blockchain Workshop</p>
+   <p style="text-align:center"><a href ="Schedule.html">Click here</a> for more details</p>
+  </div>
+  <div class="img-container">
+  <img src="images/Android.jpg" alt="Android" style="width:100%">
+   <p style="text-align:center">Android Workshop</p>
+   <p style="text-align:center"><a href ="Schedule.html">Click here</a> for more details</p>
+  </div>
+</div>
+
+
+</body>
+</html>

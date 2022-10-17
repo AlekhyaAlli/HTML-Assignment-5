@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find Your Workshop</title>
+   <link rel="icon" type="image/x-icon" href="images/FavIcon.jpg">
+   <!-- CSS Style in Embedded Format -->
+<style>
+
+/* Implementing Table Margin */
+.table-margin{
+   margin:auto;
+   border: solid;
+   width:98%;
+   padding-right:10px;
+   padding-bottom:30px;
+   padding-left:10px;
+   
+}
+/* Implementing Table Border */
+table {
+  border-style: dotted;
+  width: 100%;
+  padding:12px;
+}
+
+th, td {
+border:solid 0.5px;
+padding: 8px;
+text-align:center;
+}
+/* Implementing rows/columns formatting by using CSS nth-child  */
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+} 
+
+/*  Colour in Hexadecimal Format */
+.button2 {background-color:  #D6EEEE;
+          border-radius: 8px;}
+ 
+
+
+</style>
+</head>
+<body>
+<div class="table-margin">
+<h2 style="text-align:center">Venue Details</h2>
+
+<table>
+   <caption>Workshops Info</caption>
+  <tr>
+  <th>Workshop Name</th>
+  <th>Venue</th>
+  <th colspan="2" id="tablecol">Date and Time</th>
+  <th>Register</th>
+  </tr>
+  <tr>
+  <td>WorkShop on Blockchain</td>
+  <td>Wessex Court #2711</td>
+  <td>09/16/2022</td>
+  <td>3:00pm-5:00pm</td>
+  <td> <button class="button2" onClick="parent.open('Form.html')">Register Now</button></td>
+  </tr>
+  <tr>
+  <td>WorkShop on Android</td>
+  <td>Chris Court #9711</td>
+  <td>09/27/2022</td>
+  <td>2:00pm-4:00pm</td>
+  <td> <button class="button2" onClick="parent.open('Form.html')">Register Now</button></td>
+  </tr>
+  <tr>
+  <td>Blockchain</td>
+  <td>Gryffindor Hall #1771</td>
+  <td>10/02/2022</td>
+  <td>10:00am-12:00pm</td>
+  <td> <button class="button2" onClick="parent.open('Form.html)">Register Now</button></td>
+  </tr>
+  <tr>
+  <td rowspan="2">Cybersecurity Workshop</td>
+  <td>Hufflepuff Court #2998</td>
+  <td>10/16/2022</td>
+  <td>3:00pm-5:00pm</td>
+  <td> <button class="button2" onClick="parent.open('Form.html')">Register Now</button></td>
+  </tr>
+  <tr>
+  <td> Ravenclaw Auditorium #2908</td>
+  <td>09/23/2022</td>
+  <td>8:00am-10:00am</td>
+  <td> <button class="button2" onClick="parent.open('Form.html')">Register Now</button></td>
+  </tr>
+  <tr>
+  <td>Android Workshop</td>
+  <td>Slytherin Club, #2298</td>
+  <td>09/19/2022</td>
+  <td>12:00pm-3:00pm</td>
+  <td> <button class="button2" onClick="parent.open('Form.html')">Register Now</button></td>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>
+
+

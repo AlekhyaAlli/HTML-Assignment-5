@@ -1,0 +1,47 @@
+           /* Accessing CSS selectors by Class and HTML Body Tag*/
+		   * {
+             box-sizing: border-box;
+              }
+			 /* Use the Font property and  example of font precedence*/
+			body {
+            font-family: Ink Journal,Arial,Verdana,Helvetica,sans-serif;
+            }
+			.sidenav {
+            height: 100%;
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #eee;
+            overflow-x: scroll;
+            padding-top: 20px;
+            }
+
+          .sidenav a {
+           padding: 10px 10px 10px 10px;
+           text-decoration: none;
+           font-size: 50px;
+           color: green;
+           display: block;   
+          }
+
+         .sidenav a:hover {
+          color: black;
+          }
+
+         .main {
+         margin-left: 160px; /* Same as the width of the sidenav */
+         font-size: 28px;    /* Increased text to enable scrolling */
+         padding: 0px 10px;
+         }
+		 .responsive {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+         }
+        /* Media queries for Responsive Application */
+        @media screen and (max-height: 450px) {
+       .sidenav {padding-top: 15px;}
+       .sidenav a {font-size: 18px;}
+        } 
